@@ -1,0 +1,25 @@
+{
+  "name": "jrcodes-dark-theme",
+  "displayName": "JRCodes: Dark Theme",
+  "description": "This is awsome dark theme for Visual Studio Code who like to code at night and it's a eye catching theme",
+  "publisher": "jakircse.com",
+  "author": {
+    "name": "Jakir Hossain"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JRCodes: Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JRCodes Dark-color-theme.json"
+      }
+    ]
+  }
+}
